@@ -27,22 +27,22 @@ findLeaves <- function(node) {
     }
   } else {
     count <<- count + 1
-    refseq[count] <<- unlist(strsplit(node$name, "[.]"))[1]
+    geneId[count] <<- unlist(strsplit(node$name, "[.]"))[1]
     print (unlist(strsplit(node$name, "[.]"))[1])
   }
 }
 
 data <- fromJSON(file='dendro_row.json', method='C')
 count <- 0
-refseq <- rep(NA,100)
+geneId <- rep(NA,100)
 findLeaves(findNode(data, args[2]))
-refSeqIds <- na.omit(refseq)
+geneIds <- na.omit(geneId)
 
-if (!is.null(refSeqIds)) {
+if (!is.null(geneIds)) {
   # READS THE BACKGROUND FILE (ALL PROTEINS)
   NAMER=read.csv('background_proteins.csv',sep=",",header=TRUE)
   
-  temp = sub("(.*)\\.\\d+", "\\1", refSeqIds)
+  temp = sub("(.*)\\.\\d+", "\\1", geneIds)
   if (sum(NAMER$id %in% temp)>0) {
     SOURCE = data.frame(id=temp)
   } else if (sum(NAMER$gene %in% temp)>0) {
