@@ -1,0 +1,20 @@
+{
+  "@type":"gov.pnnl.activedata.data.Canvas",
+  "id":1449594186029,
+  "name":"Enterobacter-hormaechei-pan-genome_coldfire79",
+  "creationDate":1449594186029,
+  "lastModifiedDate":1449594186029,
+  "users":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.ADUser",
+        "id":0,
+        "name":"Enterobacter-hormaechei-pan-genome_coldfire79"
+      }
+    ]
+  },
+  "userDataNodes":null,
+  "userEdges":null,
+  "groups":null
+}
