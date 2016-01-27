@@ -3,7 +3,7 @@
   "id":1453853397527,
   "name":"Enterobacter-hormaechei-pan-genome_Tweety79rw",
   "creationDate":1453853397527,
-  "lastModifiedDate":1453854574090,
+  "lastModifiedDate":1453913079765,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -108,6 +108,29 @@
         "views":null,
         "attributes":{
           "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1453913079765,
+        "groupId":-1,
+        "isUserData":true,
+        "x":0.0,
+        "y":0.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":"pubmed;pasteData;Enterobacter-hormaechei-pan-genome;ActiveDataBio;master",
+        "label":"pasteData",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
