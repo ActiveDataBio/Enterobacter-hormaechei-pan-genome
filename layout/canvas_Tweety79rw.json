@@ -39,8 +39,8 @@
         "attributes":{
           "@type":"java.util.HashMap"
         },
-        "buttons":{
-          "@type":"java.util.HashMap"
+        "gbuttons":{
+          "@type":"java.util.ArrayList"
         }
       }
     ]
