@@ -1,0 +1,20 @@
+{
+  "@type":"gov.pnnl.activedata.data.Canvas",
+  "id":1457020790570,
+  "name":"Enterobacter-hormaechei-pan-genome_Tweety79rw",
+  "creationDate":1457020790570,
+  "lastModifiedDate":1457020790570,
+  "users":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.ADUser",
+        "id":0,
+        "name":"Enterobacter-hormaechei-pan-genome_Tweety79rw"
+      }
+    ]
+  },
+  "userDataNodes":null,
+  "userEdges":null,
+  "groups":null
+}
