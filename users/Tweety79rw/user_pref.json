@@ -1,44 +1,48 @@
 {
-  "tests" : {
-    "col" : {
-      "metadata" : {
-        "name" : "metadata.tsv",
-        "sha" : "c9babfc5afcf9cb9591f8338d4abd60e78b3b7ac"
+  "tests": {
+    "col": {
+      "metadata": {
+        "name": "metadata.tsv",
+        "sha": "c9babfc5afcf9cb9591f8338d4abd60e78b3b7ac"
       },
-      "script" : {
-        "name" : "test_samples.r",
-        "sha" : "c059706ce980580475df5a599e8d72f805162fa5"
+      "script": {
+        "name": "test_samples.r",
+        "sha": "c059706ce980580475df5a599e8d72f805162fa5"
       },
-      "custom" : [ ]
+      "custom": []
     },
-    "row" : {
-      "geneset" : {
-        "name" : "genesets.RData",
-        "sha" : "2c25cc8ce0ea72aa42fa98e7f94f601d95210dd2"
+    "row": {
+      "geneset": {
+        "name": "genesets.RData",
+        "sha": "2c25cc8ce0ea72aa42fa98e7f94f601d95210dd2"
       },
-      "script" : {
-        "name" : "test_molecules.r",
-        "sha" : "9a9ff485ffc010368a3173952d7b0ed66257a822"
+      "script": {
+        "name": "test_molecules.r",
+        "sha": "9a9ff485ffc010368a3173952d7b0ed66257a822"
       },
-      "background" : {
-        "name" : "background.csv",
-        "sha" : "97726bbf342944018183d783dd66a44199aaec07"
+      "background": {
+        "name": "background.csv",
+        "sha": "97726bbf342944018183d783dd66a44199aaec07"
       }
     }
   },
-  "dataset" : {
-    "matrix" : {
-      "name" : "matrix.csv",
-      "sha" : "d945f41c192c222463b0ec752be8a9c964979c74"
+  "dataset": {
+    "matrix": {
+      "name": "matrix.csv",
+      "sha": "d945f41c192c222463b0ec752be8a9c964979c74"
     },
-    "col" : {
-      "name" : "dendro_col.json",
-      "sha" : "02da1767d1cff62c11619aa207ae57bdb8d97caf"
+    "col": {
+      "name": "dendro_col.json",
+      "sha": "02da1767d1cff62c11619aa207ae57bdb8d97caf"
     },
-    "row" : {
-      "name" : "dendro_row.json",
-      "sha" : "bcefe466a641dc2e102dc23e8d646a0f712a33b8"
+    "row": {
+      "name": "dendro_row.json",
+      "sha": "bcefe466a641dc2e102dc23e8d646a0f712a33b8"
     }
   },
-  "recommenders" : null
+  "recommenders": null,
+  "dendrograms": {
+    "rowSha": "bcefe466a641dc2e102dc23e8d646a0f712a33b8",
+    "colSha": "620dedf1d0ebfb59d077ef8e27daeee0e49d31bf"
+  }
 }
