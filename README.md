@@ -5,7 +5,7 @@
 <!--adbio-title-->
 #Enterobacter-hormaechei-pan-genome
 <!--adbio-description-->
-Enterobacter-hormaechei-pan-genome Test
+Enterobacter-hormaechei-pan-genome
 <!--adbio-funding-->
 <!--adbio-publication-->
 <!------------------------------------------------------------------------------>
